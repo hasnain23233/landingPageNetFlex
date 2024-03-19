@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: all 700ms ease-in-out;
+}
+/* ............pageHome css here........... */
+.pageHome{
+    background-image: url(home.jpg);
+    background-size: cover;
+    border-bottom: 3px solid rgba(204, 51, 153, 0.82);
+}
+.homePage{
+    background-color: rgba(0, 0, 0, 0.705);
+    padding-bottom: 20px;
+}
+/* ............header css here............ */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+}
+header nav ul li{
+    list-style: none;
+}
+
+/* ..........home csss start here.............. */
+.home{
+    width: 100%; 
+    text-align: center;
+}
+.home .text{
+    margin: 50px auto;
+    width: 50%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+@media only screen and (min-width: 100px) {
+    header .logo h1{
+        color: rgb(224, 11, 11);
+        font-family: monospace;
+        font-size: 25px;
+        padding: 12px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        background-color: rgb(224, 11, 11);
+        padding: 6px;
+        color: white;
+        font-size: 14px;
+        border-radius: 6px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .home .text h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .home .text p{
+        font-size: 20px;
+        padding: 30px;
+    }
+    .home .text span{
+        font-size: 15px;
+        padding: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .home .text form{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .home .text form input{
+        color: white;
+        padding: 5px;
+        border-radius: 6px;
+        height: 40px;
+        font-size: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.771);
+        background-color: rgba(173, 216, 230, 0.367);
+    }
+    .home .text form button{ 
+        cursor: pointer;
+        color: white;
+        border-radius: 6px;
+        height: 50px;
+        border: none;
+        font-size: 20px;
+        background-color: rgba(255, 0, 0, 0.838);
+    }
+    form button:hover{
+        background-color: darkred;
+    }
+    /* ///////secondPage css start here//////// */
+    .secand{
+        background-color: black;
+        padding-top: 100px;
+        padding-bottom: 40px;
+        overflow: hidden    ;
+    }
+    .secand .secandPage{
+        color: white;
+        padding: 25px;
+        border-radius: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 70%;
+        margin: auto;
+        background-color: rgba(204, 51, 153, 0.307);  
+    }
+    .secand .secandPage:hover{
+        transform: scale(1.1);
+    }
+    .secand .secandPage .teXt{
+        color: white;
+        padding-bottom: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .secand .secandPage p{
+        color: rgb(172, 172, 172);
+    }
+    /* ...........thirdPage........... */
+    .thirdPage{
+        padding-top: 3%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 74%;
+        margin: 12px auto;
+    }
+    .thirdPage p{
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+    .thirdPage select{
+        padding: 6px;
+        border-radius: 6px;
+        border: 1px solid white;
+        color: white;
+        background-color: transparent;
+    }
+    .thirdPage select option{
+        color: black;
+    }
+    /* ////////fourthSeaction.......... */
+    .fourthSeaction .flex{
+        padding-top: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        width: 79%;
+        margin: 12px auto;
+    }
+    .fourthSeaction .flex div:hover{
+        transform: scale(1.1);
+    }
+    .fourthSeaction .flex div button{
+        padding: 6px;
+        color: white;
+        width: 100%;
+        background-color: darkred;
+        cursor: pointer;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    .fourthSeaction .flex div button:hover{
+        background-color: red;
+    }
+    /* ......fivethPage css here.... */
+    .fivethPage{
+        width: 79%;
+        padding-top: 60px;
+        margin: 20px auto;
+    }
+    .fivethPage .flex{
+        display: flex;
+        align-items: center;
+        color: white;
+        background-color: rgba(204, 51, 153, 0.307);
+        border-radius: 12px;
+        
+    }
+    .fivethPage .flex .tect{
+        padding-left: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fivethPage .flex .tect p{
+        color: gray;
+        padding-top: 12px;
+        line-height: 24px;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .fivethPage .flex .hde{
+        height: 300px;
+        width: 70%;
+        border-radius: 12px;
+        background-image: url(games-lg.png);
+        background-size: 800px;
+        background-position: left;
+    }
+    /* ............sixthPage Css here........... */
+    .sixthPage{
+        width: 70%;
+        margin: 120px auto;
+    }
+    .sixthPage .flexContainer .flex{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 18px;
+        background-color: gray;
+        margin: 12px;
+    }
+    .sixthPage .flexContainer .flex p{
+        line-height: 15px;
+    }
+    .sixthPage .flexContainer .flex .plusTag{
+        font-size: 60px;
+    }
+    .sixthPage .flexContainer h1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 12px;
+        font-size: 25px;
+    }
+    /* ........seventhPage CSS here...... */
+    .seventh{
+        width: 79%;
+        margin: 59px auto;
+    }
+    .seventh .seventhPage h1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        padding-bottom: 12px;
+    }
+    .seventh .seventhPage form input{
+        width: 80%;
+        height: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 18px;
+        color: white;
+        background-color: rgba(128, 128, 128, 0.342);
+    }
+    .seventh .seventhPage form button{
+        background-color: rgba(255, 0, 0, 0.76);
+        cursor: pointer;
+        font-size: 18px;
+        height: 50px;
+        width: 15%;
+        padding: 12px;
+        border: 1px solid transparent;
+        border-radius: 6px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .seventh .seventhPage form button:hover{
+        background-color: rgba(255, 0, 0, 0.341);
+        border: 1px solid white;
+    }
+    /* ////////////footerPage css herere//// */
+    .footer{
+        width: 70%;
+        margin: 20px auto;
+        color: rgba(211, 211, 211, 0.431);
+    }
+    .footer .footerPage{
+        color: rgba(211, 211, 211, 0.431);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .footer .footerPage a{
+        color: rgba(211, 211, 211, 0.431);
+    }
+    .footer .footerContainer .footerFlex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 12px;
+    }
+    .footer .footerContainer .footerFlex div {
+        text-align: start;
+        width: 200px;
+    }
+    .footer .footerContainer .footerFlex div a{
+        color: rgba(211, 211, 211, 0.431);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .footer select{
+        background-color: transparent;
+        color: white;
+        height: 35px;
+        padding: 6px;
+        width: 15%;
+        border-radius: 6px;
+    }
+    .footer p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+@media only screen and (min-width: 500px){
+    header .logo h1{
+        color: rgb(224, 11, 11);
+        font-family: monospace;
+        font-size: 50px;
+        padding: 12px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    header nav ul li a{
+        text-decoration: none;
+        background-color: rgb(224, 11, 11);
+        padding: 12px;
+        color: white;
+        font-size: 18px;
+        border-radius: 6px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .home .text h1{
+        font-size: 70px;
+        font-weight: 700;
+    }
+    .home .text p{
+        font-size: 25px;
+        padding: 30px;
+    }
+    .home .text span{
+        font-size: 20px;
+        padding: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .home .text form button{
+        width: 70%;
+        font-size: 20px;
+    }
+    .secand .secandPage .teXt{
+        color: white;
+        padding-bottom: 20px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    /* //////sixthPage css here ............. */
+    .sixthPage{
+        width: 80%;
+        margin: 120px auto;
+    }
+    .sixthPage .flexContainer .flex{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        padding: 40px;
+        background-color: rgba(118, 117, 117, 0.246);
+        cursor: pointer;
+        margin: 12px;
+    }
+    .sixthPage .flexContainer .flex:hover{
+        background-color: rgba(128, 128, 128, 0.545);
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .home .text form{
+        flex-direction: row;
+    }
+    .home .text form button{ 
+        cursor: pointer;
+        color: white;
+        border-radius: 6px;
+        margin-left: 12px;
+        border: none;
+        width: 30%;
+        font-size: 20px;
+        background-color: rgba(255, 0, 0, 0.838);
+    }
+}
